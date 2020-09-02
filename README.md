@@ -9,16 +9,18 @@ I want to use this project as a longterm reference and sandbox for this particul
 ✅ Push to Git as public repo (why not?? 😉)  
 ⬜ Set up basic 9-slice sprite and script  
 ⬜ basic textbox where user must press space to dismiss  
+⬜ user selection from list of options  
+⬜ user input options as separate textbox, and pressing confirm on the option doesn't dismiss the underlying window (thinking about using a stack or something...)  
 ⬜ typewriter textbox effect with adjustable speed  
+⬜ press space during typewriting (after, say, 2 characters have appeared, to automatically show all text)  
 ⬜ accounts for word length and won't start writing on a line where it can't finish the word  
 ⬜ data-driven message queuing for one window with paging, where space advances dialogue to next page  
-⬜ press space during typewriting (after, say, 2 characters have appeared, to automatically show all text)  
 ⬜ textbox feature to auto-page text that is too long for one window  
-⬜ ability to stop text mid-page and require space bar press to show rest of text  
+⬜ ability to script text stop midway through and require space bar press to show rest of text  
 ⬜ ability to colorize spans of text  
-⬜ optional nameplating  
-⬜ optional portrait  
-⬜ optional persona-style portrait    
+⬜ optional nameplate  
+⬜ optional character bust picture  
+⬜ branching dialogue, scripting paths  
 ⬜ RPG-style menu  
 ⬜ RPG-style inventory  
 ⬜ RPG-style shop interface  
