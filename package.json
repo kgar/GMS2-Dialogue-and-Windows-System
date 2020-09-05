@@ -1,0 +1,29 @@
+{
+  "name": "textboxesandwindowssystem",
+  "version": "1.0.0",
+  "description": "A scripting setup that will apply assistance with managing custom structs using TypeScript.",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgar/GMS2-Dialogue-and-Windows-System.git"
+  },
+  "keywords": [
+    "tooling",
+    "toolchain",
+    "typescript"
+  ],
+  "author": "Kevin Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgar/GMS2-Dialogue-and-Windows-System/issues"
+  },
+  "homepage": "https://github.com/kgar/GMS2-Dialogue-and-Windows-System#readme"
+}
