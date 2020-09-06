@@ -7,7 +7,7 @@ I want to use this project as a longterm reference and sandbox for this particul
 # To Do
 ✅ Create GMS2 project  
 ✅ Push to Git as public repo (why not?? 😉)  
-⬜ Set up basic 9-slice sprite and script  
+✅ Set up basic 9-slice sprite and script  
 ⬜ basic textbox where user must press space to dismiss  
 ⬜ user selection from list of options  
 ⬜ user input options as separate textbox, and pressing confirm on the option doesn't dismiss the underlying window (thinking about using a stack or something...)  
