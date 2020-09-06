@@ -2,7 +2,7 @@
 NineSliceBoxStretched(
 	sprTextBoxes, 
 	0, 
-	RESOLUTION_H - 70, 
-	RESOLUTION_W, 
-	RESOLUTION_H, 
+	global.game_height * 0.6, 
+	global.game_width, 
+	global.game_height, 
 	0);
