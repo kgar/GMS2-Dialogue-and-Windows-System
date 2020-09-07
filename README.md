@@ -8,11 +8,13 @@ I want to use this project as a longterm reference and sandbox for this particul
 ✅ Create GMS2 project  
 ✅ Push to Git as public repo (why not?? 😉)  
 ✅ Set up basic 9-slice sprite and script  
-⬜ basic textbox where user must press space to dismiss  
+✅ basic textbox where user must press space to dismiss  
+✅ typewriter textbox effect with adjustable speed  
+✅ press space during typewriting (after, say, 2 characters have appeared, to automatically show all text)  
+✅ basic paging  
+⬜ refactor: move all boolean logic pertaining to text or textboxes to functions in the structs. Also consider returning an enum for the recommended action on step handling  
 ⬜ user selection from list of options  
 ⬜ user input options as separate textbox, and pressing confirm on the option doesn't dismiss the underlying window (thinking about using a stack or something...)  
-⬜ typewriter textbox effect with adjustable speed  
-⬜ press space during typewriting (after, say, 2 characters have appeared, to automatically show all text)  
 ⬜ accounts for word length and won't start writing on a line where it can't finish the word  
 ⬜ data-driven message queuing for one window with paging, where space advances dialogue to next page  
 ⬜ textbox feature to auto-page text that is too long for one window  
