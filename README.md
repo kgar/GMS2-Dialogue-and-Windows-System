@@ -12,7 +12,7 @@ I want to use this project as a longterm reference and sandbox for this particul
 ✅ typewriter textbox effect with adjustable speed  
 ✅ press space during typewriting (after, say, 2 characters have appeared, to automatically show all text)  
 ✅ basic paging  
-⬜ refactor: move all boolean logic pertaining to text or textboxes to functions in the structs. Also consider returning an enum for the recommended action on step handling  
+✅ refactor: move paging / skipping logic to the struct  
 ⬜ user selection from list of options  
 ⬜ user input options as separate textbox, and pressing confirm on the option doesn't dismiss the underlying window (thinking about using a stack or something...)  
 ⬜ accounts for word length and won't start writing on a line where it can't finish the word  

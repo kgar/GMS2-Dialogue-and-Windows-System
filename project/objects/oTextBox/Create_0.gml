@@ -19,9 +19,37 @@ text = {
 		"You will find that there are multiple strings to view and to test."
 	],
 	current: undefined,
-	currentLength: undefined
+	currentLength: undefined,
+	onConfirm: function() {
+		if (canSkip()) {
+			index = currentLength; // Skip typing
+		}
+		else if (canPage()) {
+			turnPage(); // Turn the page
+		}
+		else {
+			instance_destroy(other); // Dismiss dialogue
+		}
+	},
+	canSkip: function() {
+		var stillTyping = index + 1 < currentLength;
+		return stillTyping && index >= 2;
+	},
+	canPage: function() {
+		return page + 1 < pageCount;
+	},
+	turnPage: function() {
+		// Turn the page
+		page = page == undefined
+			? 0
+			: page + 1;
+		var currentText = pages[page];
+		// TODO: Add newlines at appropriate breakpoints
+		current = currentText;
+		currentLength = string_length(current);
+		index = 0;
+	}
 };
 
 text.pageCount = array_length(text.pages);
-
-event_user(0);
+text.turnPage();
